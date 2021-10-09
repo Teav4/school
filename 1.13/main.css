@@ -1,0 +1,29 @@
+
+
+.header__logo {
+    height: 80px;
+    align-items: center;
+}
+
+.header__nav {
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__banner {
+    height: 160px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__slider-bar {
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__content {
+    height: 60px;
+    justify-content: center;
+}
