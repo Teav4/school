@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-weight: 600;
+}
+h3{
+    font-size: 2rem;
+}
+
+/* navigation */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+    background-color: rgb(8, 168, 141);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0
+}
+.nav__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 20px;
+    flex: 1;
+    margin: 0 20px;
+    background-color: rgb(222, 245, 179);
+}
+.nav__item a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: red;
+}
+.container{
+    margin-top: 100px;
+}
+/* Bài kiểm tra 1 */
+.kiem-tra1__header{
+    background-color: cadetblue;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-wrap{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+.box1{
+    background-color: rgb(255, 0, 76);
+}
+.box2{
+    background-color: rgb(238, 255, 0);
+}
+.box3{
+    background-color: rgb(255, 0, 179);
+}
+.box4{
+    background-color: rgb(0, 255, 13);
+}
+.box5{
+    background-color: rgb(255, 0, 21);
+}
+.box6{
+    background-color: rgb(255, 208, 0);
+}
+.box7{
+    background-color: rgb(55, 0, 255);
+}
+.box8{
+    background-color: cyan;
+}
+.box9{
+    background-color: rgb(0, 255, 200);
+}
+.box10{
+    background-color: rgb(0, 195, 255);
+}
+.box11{
+    background-color: rgb(0, 255, 200);
+}
+.box12{
+    background-color: rgb(238, 255, 0);
+}
+.box13{
+    background-color: rgb(255, 0, 0);
+}
+.kiem-tra1__intro{
+    background-color: rgb(106, 228, 228);
+    margin-top: 16px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.kiem-tra1__footer{
+    background-color: rgb(228, 106, 106);
+    margin-top: 16px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+/* Bài kiểm tra 2 */
+.kiem-tra2__info-company{
+    margin-top: 200px;
+    height: 60px;
+    background-color: thistle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kiem-tra2__header{
+    margin-top: 18px;
+    height: 100px;
+    background-color: rgb(9, 172, 91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kiem-tra2__navigation{
+    margin-top: 18px;
+    height: 100px;
+    background-color: rgb(9, 161, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kiem-tra2__content__about{
+    margin-top: 18px;
+    height: 500px;
+    background-color: rgb(235, 224, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kiem-tra2__content__links{
+    margin-top: 18px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.kiem-tra2__content__link1{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(75, 235, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kiem-tra2__content__link2{
+    margin-top: 18px;
+    width: 100%;
+    flex: 1;
+    background-color: rgb(235, 75, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kiem-tra2__footer{
+    margin-top: 16px;
+    height: 60px;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Bài kiểm tra 3 */
+.kiem-tra3__header{
+    margin-top: 200px;
+    height: 100px;
+    border-radius: 20px;
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kiem-tra3__sidebar{
+    margin-top: 8px;
+    height: 500px;
+    border-radius: 20px;
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kiem-tra3__conten__1{
+    margin-top: 8px;
+    height: 300px;
+    border-radius: 20px;
+    border: 3px solid red;
+}
+.kiem-tra3__conten__2{
+    margin-top: 8px;
+    height: 200px;
+    border-radius: 20px;
+    border: 3px solid red;
+}
+.kiem-tra3__conten__3{
+    margin-top: 8px;
+    height: 200px;
+    border-radius: 20px;
+    border: 3px solid red;
+}
+.kiem-tra3__footer{
+    margin-top: 8px;
+    height: 100px;
+    border-radius: 20px;
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Bài kiểm tra 4 */
+.kiem-tra4__header{
+    height: 60px;
+    margin-top: 200px;
+    border: 3px solid darkblue;
+    background-color: rgb(109, 191, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kiem-tra4__path{
+    height: 100px;
+    margin-top: 8px;
+    border: 3px solid rgb(216, 138, 151);
+    background-color: rgb(235, 211, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kiem-tra4__docktop{
+    height: 60px;
+    margin-top: 8px;
+    border: 3px solid rgb(206, 226, 26);
+    background-color: rgb(234, 235, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kiem-tra4__dockleft{
+    height: 500px;
+    margin-top: 8px;
+    border: 3px solid rgb(26, 203, 226);
+    background-color: rgb(113, 226, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kiem-tra4__error{
+    height: 100px;
+    margin-top: 8px;
+    border: 3px solid rgb(240, 17, 9);
+    background-color: rgb(235, 112, 91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kiem-tra4__content{
+    height: 392px;
+    margin-top: 8px;
+    border: 3px solid rgb(51, 247, 12);
+    background-color: rgb(113, 230, 129);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kiem-tra4__dockright{
+    height: 500px;
+    margin-top: 8px;
+    border: 3px solid rgb(226, 26, 166);
+    background-color: rgb(230, 113, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kiem-tra4__dockbottom{
+    height: 60px;
+    margin-top: 8px;
+    border: 3px solid rgb(26, 226, 193);
+    background-color: rgb(113, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kiem-tra4__footer{
+    height: 60px;
+    margin-top: 8px;
+    border: 3px solid rgb(226, 99, 26);
+    background-color: rgb(236, 183, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Test5 */
+.test5__header{
+    margin-top: 200px;
+    height: 100px;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test5__large-img{
+    margin-top: 8px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(90deg, rgb(0, 255, 76), rgb(199, 15, 46), green)
+}
+.test5__sub-header{
+    margin-top: 8px;
+    height: 100px;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test5__image{
+    margin-top: 8px;
+    width: 100%;
+    height: 380px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3VBGmVRhJ0FPR_ZkTCUqsRHS6S5Lxhc6dKw&usqp=CAU);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 1px 1px 3px black;
+}
+.test5__supporting{
+    margin-top: 8px;
+    height: 100px;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Test 6 */
+.test6{
+    margin-top: 200px;
+    height: 1000px;
+    border: 2px solid red;
+    background-color: rgb(8, 98, 126);
+}
+.test6__title{
+    margin-top: 8px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test6__logo{
+    margin-top: 8px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test6__sidebar{
+    margin-top: 16px;
+    height: 500px;
+    background-color: rgb(8, 98, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;box-shadow: 5px 5px 1px rgb(248, 246, 248);
+}
+.test6__sidebar__list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.test6__sidebar__item{
+    margin-top: 16px;
+    height: 100px;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test6__content__img-content,
+.test6__content__text,
+.test6__content__img-right,
+.test6__content__img-left{
+    margin-top: 16px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test6__footer__text-right,
+.test6__footer__text-left{
+    margin-top: 16px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test6__footer__img{
+    margin-top: 16px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
