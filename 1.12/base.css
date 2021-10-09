@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    /* giá trị này 1 rem = 10px */
+    font-size: 62.5%;
+    /* độ cao chữ mặc định */
+    line-height: 1.6rem;  /* 1.6rem = 16px */
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    /* căn giữa */
+    margin: 0 auto;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.column__3 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.block__all {
+    width: 100%;
+    background-color: #ccc;
+    margin-top: 10px;
+    display: flex;
+}
+
